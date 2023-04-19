@@ -1,0 +1,30 @@
+
+GET HTTP://127.0.0.1:3000/users
+
+###
+
+GET HTTP://127.0.0.1:3000/users/6440395e14c9758d4181c737
+
+###
+
+POST HTTP://127.0.0.1:3000/users
+content-Type: application/json
+
+{
+    "name": "Wonderfull Person",
+    "subsribedToChannel": "ImmortalCAT"
+}
+
+###
+
+DELETE HTTP://127.0.0.1:3000/users/64403a557e785f9333cd0060
+
+###
+
+PATCH HTTP://127.0.0.1:3000/users/6440395e14c9758d4181c737
+content-Type: application/json
+
+{
+    "name": "Newer Person"
+    
+}
